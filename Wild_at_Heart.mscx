@@ -5750,6 +5750,13 @@
               <subtype>1</subtype>
               </Arpeggio>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <minDistance>-0.718556</minDistance>
+            <offset x="-4.70125" y="-4.29319"/>
+            <text>rit.
+</text>
+            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5836,6 +5843,7 @@
               </prev>
             </Spanner>
           <Chord>
+            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <pitch>52</pitch>
@@ -5843,14 +5851,14 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>1/16</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -5874,7 +5882,7 @@
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/8</fractions>
+                    <fractions>-1/16</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -5885,6 +5893,10 @@
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -10975,20 +10987,103 @@
               </Arpeggio>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -11074,6 +11169,10 @@
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
