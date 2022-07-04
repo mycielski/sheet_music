@@ -113,6 +113,19 @@
           <style>Title</style>
           <text>Wild at Heart</text>
           </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Composer: Jack Antonoff</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text>Arrangement: Dylan Ondine
+Transcription: Tomasz Mycielski</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>Lana  Del Rey</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -5890,13 +5903,13 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -6280,10 +6293,6 @@
             <Note>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              </Note>
-            <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
               </Note>
             </Chord>
           </voice>
@@ -11166,13 +11175,13 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
